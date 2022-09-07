@@ -4,11 +4,20 @@
     box-sizing: border-box;
 }
 
-/* COMMON */
 img {
     max-width: 100%;
 }
 
+
+.head-container{
+    display: flex;
+    background-color: orange;
+}
+
+.prova{
+    justify-content: space-around;
+    align-items: center;
+}
 
 .container {
     width: 80%;
