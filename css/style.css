@@ -1,9 +1,86 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-img{
+/* COMMON */
+img {
     max-width: 100%;
 }
+
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 50px auto 0;
+}
+
+.row {
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col {
+    width: calc(100% / 3 - 20px);
+}
+
+.card {
+    position: relative;
+    margin-bottom: 5em;
+}
+
+.discount-red{
+    background-color: red;
+    color: white;
+    position: absolute;
+    bottom: 2em;
+    padding: .1em;
+}
+
+.banner-green{
+    background-color: green;
+    color: white;
+    position: absolute;
+    bottom: 2em;
+    left: 2.5em;
+    padding: .1em;
+}
+
+.banner-green-last{
+    background-color: green;
+    color: white;
+    position: absolute;
+    bottom: 2em;
+    left: 0em;
+    padding: 0.1em;
+}
+
+.heart{
+    position: absolute;
+    background-color: white;
+    right: 0;
+    top: .2em;
+    padding: .6em;
+}
+
+.description{
+    position: absolute;
+}
+
+.price{
+    color: red;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.offer{
+    text-decoration: line-through;
+    display: inline-block;
+}
+
+.card:hover .heart{
+    color: red;
+}
+
