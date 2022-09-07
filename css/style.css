@@ -80,7 +80,16 @@ img {
     display: inline-block;
 }
 
-.card:hover .heart{
+.heart:hover{
     color: red;
 }
 
+.first{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card:hover .first{
+    display: none;
+}
