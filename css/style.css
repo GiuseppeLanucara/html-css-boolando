@@ -12,13 +12,40 @@ img {
 .head-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: orange;
     color: white;
 }
 
-.prova{
-    justify-content: space-around;
+.link1{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logoicon{
+    width: 30%;
+    height: 30%;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 .container {
