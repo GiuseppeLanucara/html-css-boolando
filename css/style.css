@@ -4,14 +4,9 @@
     box-sizing: border-box;
 }
 
-
-
-
 img {
     max-width: 100%;
 }
-
-
 
 .head-container{
     display: flex;
@@ -25,7 +20,6 @@ img {
     left: 0;
     right: 0;
     z-index: 1;
-    width: 100%;
 }
 
 .link1{
@@ -52,6 +46,7 @@ a{
     width: 40%;
     margin-top: .5em;
     margin-bottom: .5em;
+    color: white;
 }
 
 .icons{
@@ -62,9 +57,9 @@ a{
 }
 
 i{
-    margin-right: 1em;
-    margin-left: 1em;
+    margin-right: 0.5em;
     font-size: 1rem;
+    color: white;
 }
 
 .container {
@@ -153,23 +148,16 @@ i{
 }
 
 footer{
-    background-color: black;
+    background-color:rgb(29, 28, 28);
 }
 
 .foot-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 200px;
-    background-color: black;
-    width: 70%;
+    background-color: rgb(29, 28, 28);
     margin: auto;
-}
-
-.foot-left{
-    background-color: red;
-    
-    
+    padding: 1.5em;
 }
 
 .credits{
@@ -180,12 +168,8 @@ footer{
 
 }
 
-.foot-right{
-    background-color: red;
-    width: 100px;
-    height: 100px;
-}
-
 h3{
     color: white;
+    font-weight: 100;
+     margin-bottom: .3em;
 }
