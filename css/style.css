@@ -5,9 +5,12 @@
 }
 
 
+
+
 img {
     max-width: 100%;
 }
+
 
 
 .head-container{
@@ -16,6 +19,13 @@ img {
     align-items: center;
     background-color: orange;
     color: white;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    width: 100%;
 }
 
 .link1{
@@ -58,7 +68,8 @@ i{
 }
 
 .container {
-    width: 80%;
+    padding-top: 5em;
+    width: 100%;
     max-width: 1200px;
     margin: 50px auto 0;
 }
@@ -70,7 +81,7 @@ i{
 }
 
 .col {
-    width: calc(100% / 3 - 20px);
+    width: calc(100% / 3 - 20px );
 }
 
 .card {
@@ -139,4 +150,37 @@ i{
 
 .card:hover .first{
     display: none;
+}
+
+footer{
+    background-color: black;
+}
+
+.foot-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    background-color: black;
+    width: 70%;
+    margin: auto;
+}
+
+.foot-left{
+    display: flex;
+    background-color: red;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.foot-right{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+h3{
+    color: white;
 }
